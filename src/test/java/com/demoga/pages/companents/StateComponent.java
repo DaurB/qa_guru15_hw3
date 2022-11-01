@@ -16,8 +16,4 @@ public class StateComponent {
         return this;
     }
 
-
-
-
-
 }

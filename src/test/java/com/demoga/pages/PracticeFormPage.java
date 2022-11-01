@@ -110,10 +110,6 @@ public class PracticeFormPage {
         return this;
     }
 
-
-
-
-
     //Results
 
     public PracticeFormPage checkResultModalVisible() {
@@ -128,8 +124,7 @@ public class PracticeFormPage {
         return this;
     }
 
-
-    }
+}
 
 
 
