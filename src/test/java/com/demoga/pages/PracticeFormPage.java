@@ -7,6 +7,7 @@ import com.demoga.pages.companents.StateComponent;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
+
 public class PracticeFormPage {
 
     private CalendarComponent calendarComponent = new CalendarComponent();

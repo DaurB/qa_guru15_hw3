@@ -60,10 +60,5 @@ public class PracticeFormTest {
                 text("NCR Delhi"));
 
 
-
-
-
-
-
     }
 }

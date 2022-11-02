@@ -39,16 +39,16 @@ public class PracticeFormTestWithPageObject {
 
 
         practiceFormPage.checkResultModalVisible()
-                        .checkResult("Date of Birth", "27 October,1998")
-                        .checkResult("Student Email","Dauren@g.com")
-                        .checkResult("Gender","Male")
-                        .checkResult("Mobile","7019444308")
-                        .checkResult("Date of Birth","27 October,1998")
-                        .checkResult("Subjects","History")
-                        .checkResult("Hobbies","Reading")
-                        .checkResult("Picture","1.png")
-                        .checkResult("Address","Address, Street, Building")
-                        .checkResult("State and City","NCR Delhi");
+                .checkResult("Date of Birth", "27 October,1998")
+                .checkResult("Student Email", "Dauren@g.com")
+                .checkResult("Gender", "Male")
+                .checkResult("Mobile", "7019444308")
+                .checkResult("Date of Birth", "27 October,1998")
+                .checkResult("Subjects", "History")
+                .checkResult("Hobbies", "Reading")
+                .checkResult("Picture", "1.png")
+                .checkResult("Address", "Address, Street, Building")
+                .checkResult("State and City", "NCR Delhi");
 
     }
 }
