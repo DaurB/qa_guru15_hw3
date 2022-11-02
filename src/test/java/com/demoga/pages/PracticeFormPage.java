@@ -97,7 +97,6 @@ public class PracticeFormPage {
     }
 
     //Results
-
     public PracticeFormPage checkResultModalVisible() {
         resultModal.isVisible();
         return this;
