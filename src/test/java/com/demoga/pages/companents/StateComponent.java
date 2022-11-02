@@ -7,7 +7,6 @@ public class StateComponent {
 
     public StateComponent setState(String value) {
         $("#stateCity-wrapper").$(byText(value)).click();
-
         return this;
     }
 

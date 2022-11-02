@@ -13,14 +13,12 @@ public class ResultModal {
     public ResultModal isVisible() {
         $(".modal-dialog").shouldHave(appear);
         $("#example-modal-sizes-title-lg").shouldHave(text(TITLE_TEXT));
-
         return this;
     }
 
     public ResultModal checkResult(String key, String value) {
         $(".table-responsive table").$(byText(key))
                 .parent().shouldHave(text(value));
-
         return this;
     }
 
