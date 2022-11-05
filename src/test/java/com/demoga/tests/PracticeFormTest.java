@@ -1,4 +1,4 @@
-package com.demoga;
+package com.demoga.tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
@@ -58,13 +58,6 @@ public class PracticeFormTest {
                 text("1.png"),
                 text("Address, Street, Building"),
                 text("NCR Delhi"));
-
-                ////рудщщ
-
-
-
-
-
 
     }
 }
